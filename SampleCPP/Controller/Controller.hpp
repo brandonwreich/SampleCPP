@@ -11,6 +11,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Controller
 {
 private:
@@ -23,5 +25,9 @@ public:
     // This is a prototype
     Controller();
     void start();
-};
+    
+    string food [4] = {"Donuts", "Waffles", "Eggs", "Chicken Nuggets"};
+    int index, result = 0;
+    
+        };
 #endif /* Controller_hpp */

@@ -17,8 +17,20 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index++)
+    string name = "Brandon Reich";
+    int age = 17;
+    
+    cout << name << " is " << age << " years old." << endl;
+    
+    for (int index = 13; index <= 31; index++)
     {
-        cout << "This loop has execucted" << index + 1 << " times" << endl;
+        cout << index << endl;
     }
+    
+    string *namePointer;
+    
+    cout << "My name is " << namePointer << endl;
+    
+    
+    
 }
