@@ -19,6 +19,8 @@ protected:
     // Things that need to only be used by subclasses
 public:
     // Anyone can see this
+    
+    // This is a prototype
     Controller();
     void start();
 };
