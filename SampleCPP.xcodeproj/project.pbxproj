@@ -68,8 +68,8 @@
 		03CFFC55201A2E4E00581330 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				03CFFC50201A2E1D00581330 /* Controller.cpp */,
 				03CFFC53201A2E3400581330 /* Runner.cpp */,
+				03CFFC50201A2E1D00581330 /* Controller.cpp */,
 				03CFFC51201A2E1D00581330 /* Controller.hpp */,
 			);
 			path = Controller;

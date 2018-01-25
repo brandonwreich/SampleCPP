@@ -9,11 +9,16 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <stdio.h>
+#include <iostream>
 
 class Controller
 {
+private:
+    // Data members and helper methods
+protected:
+    // Things that need to only be used by subclasses
 public:
+    // Anyone can see this
     Controller();
     void start();
 };

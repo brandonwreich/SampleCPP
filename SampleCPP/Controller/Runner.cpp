@@ -6,7 +6,7 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#include <stdio.h>
+#include <iostream>
 #include "Controller.hpp"
 int main()
 {
