@@ -9,7 +9,10 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
+
 #include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -17,17 +20,19 @@ class Controller
 {
 private:
     // Data members and helper methods
+    int specialNumber;
+    string favoriteWord;
+    int * nuumberPointer;
+    
 protected:
     // Things that need to only be used by subclasses
+    
 public:
     // Anyone can see this
-    
-    // This is a prototype
     Controller();
     void start();
-    
-    string food [4] = {"Donuts", "Waffles", "Eggs", "Chicken Nuggets"};
-    int index, result = 0;
-    
-        };
+    void useVector();
+};
+
 #endif /* Controller_hpp */
+
